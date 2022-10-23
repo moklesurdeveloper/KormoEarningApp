@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_Communication"
+        android:orderInCategory="100"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/nav_dashboard"
+        android:orderInCategory="100"
+        android:title="Dashboard"
+        android:icon="@drawable/ic_deshboard"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/nav_fb"
+        android:orderInCategory="100"
+        android:title="Facebook page"
+        android:icon="@drawable/ic_facebook"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/nav_Youtube"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_youtube"
+        android:title="Youtube"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/nav_WebSite"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_web_site"
+        android:title="Web site"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:visible="false"
+        android:id="@+id/nav_rate_us"
+        android:orderInCategory="100"
+        android:title="Rate us"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:visible="false"
+        android:id="@+id/nav_share_app"
+        android:orderInCategory="100"
+        android:title="Share app"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/nav_log_out"
+        android:orderInCategory="100"
+        android:title="LogOut"
+        app:showAsAction="never"
+        android:icon="@drawable/log_out"
+        />
+
+
+</menu>

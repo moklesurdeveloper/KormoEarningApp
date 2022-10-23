@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor"
+    android:orientation="vertical"
+    tools:context="com.bdearning.group.ui.ManeyAddActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarAddManey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbarColor"
+        >
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20sp"
+                    android:layout_marginBottom="10dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp">
+
+                    <TextView
+                        android:id="@+id/message__add_money"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/et_bg"
+                        android:padding="10dp"
+                        android:text="@string/txt"
+                        android:textColor="#000"
+                        android:textSize="17sp" />
+                </androidx.cardview.widget.CardView>
+
+
+
+                <LinearLayout
+                    android:id="@+id/add_money_all_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginRight="20sp"
+                        android:layout_marginBottom="10dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="10dp">
+
+                        <TextView
+                            android:id="@+id/payment_numberList__add_money"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/et_bg"
+                            android:padding="10dp"
+                            android:text="@string/txtPaymentName"
+                            android:textColor="#000"
+                            android:textSize="17sp" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginRight="20sp"
+                        android:layout_marginBottom="10dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="6dp"
+                        app:cardElevation="10dp">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/textField"
+                            android:background="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="#403C3C"
+                            android:hint="@string/koto_tk_add">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/add_amount_add_money"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/et_bg"
+                                android:inputType="number"
+                                android:textColor="@color/black" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginRight="20sp"
+                        android:layout_marginBottom="10dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="6dp"
+                        app:cardElevation="10dp">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:background="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="#403C3C"
+                            android:hint="@string/kon_num_thake">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/payment_number_add_money"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/et_bg"
+                                android:inputType="number"
+                                android:textColor="@color/black" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginRight="20sp"
+                        android:layout_marginBottom="10dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="6dp"
+                        app:cardElevation="10dp">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:background="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="#403C3C"
+                            android:hint="@string/trs_id">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/trns_id_add_money"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/et_bg"
+                                android:textColor="@color/black" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginRight="20sp"
+                        android:layout_marginBottom="10dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="6dp"
+                        app:cardElevation="10dp">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:visibility="gone"
+                            android:background="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="#403C3C"
+                            android:hint="@string/login_num">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/login_number_add_money"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/et_bg"
+                                android:inputType="number"
+                                android:textColor="@color/black"
+                                />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/select_add_money_CardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20sp"
+                    android:layout_marginBottom="10dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="6dp"
+                    app:cardElevation="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20sp"
+                            android:layout_marginRight="20sp"
+                            android:padding="5dp"
+                            android:text="@string/numberSelected"
+                            android:textColor="@color/black" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="5dp"
+                            android:orientation="horizontal">
+
+
+
+                            <ImageView
+                                android:id="@+id/bkash_add_maney"
+                                android:background="@color/white"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:padding="2dp"
+                                android:layout_marginRight="10dp"
+                                android:src="@drawable/bkash"
+                                />
+
+                            <ImageView
+                                android:id="@+id/nagad_add_maney"
+                                android:padding="5dp"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_marginRight="10dp"
+                                android:src="@drawable/nagad" />
+
+                            <ImageView
+                                android:id="@+id/roket_add_maney"
+                                android:padding="2dp"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:src="@drawable/roket_last" />
+
+                            <ImageView
+                                android:id="@+id/upai_add_maney"
+                                android:padding="2dp"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:src="@drawable/upai" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginRight="20sp"
+                    android:layout_marginBottom="10dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="6dp"
+                    app:cardElevation="10dp">
+
+                    <TextView
+                        android:id="@+id/send_request__add_money"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:padding="10dp"
+                        android:text="সেন্ট"
+                        android:textColor="@color/black"
+                        android:textSize="17sp" />
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</LinearLayout>

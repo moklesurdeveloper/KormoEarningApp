@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txt_job_layout">15sp</dimen>
+    <dimen name="img_size_add_maney">80dp</dimen>
+    <dimen name="cash_out_img_size">70dp</dimen>
+    <dimen name="cardCornerRadius">10dp</dimen>
+    <dimen name="cardCornerRadius_et">6</dimen>
+    <dimen name="home_icon_size">35sp</dimen>
+    <dimen name="tv_profile">18</dimen>
+</resources>

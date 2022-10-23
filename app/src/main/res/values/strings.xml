@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Bd Earning Group</string>
+    <string name="appName">Bd Earning Group</string>
+    <string name="open_activity_title">Earn Money Easily..</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="kormot">কর্ম</string>
+    <string name="mobile_txt">মোবাইল রিচার্জ</string>
+    <string name="cash_out_txt">ক্যাশ আউট</string>
+    <string name="tk_pathan_txt">টাকা পাঠান আপনার বন্ধুকে</string>
+    <string name="refer_txt_page">বন্ধুকে যুক্ত করলে টাকা</string>
+    <string name="tk_add_txt">টাকা অ্যাড করুন</string>
+    <string name="withdraw_txt">উইথড্রো হিস্টরি</string>
+    <string name="rate_txt">রেটিং</string>
+    <string name="refer_txt">রেফার করুন</string>
+    <string name="recharge_dashboard_meg">Message</string>
+    <string name="admin_notices">এডমিন নোটিস</string>
+
+    <string name="daily_work">দৈনিক কর্ম</string>
+
+    <string name="koto_tk_add">কত টাকা এ্যাড করতে চান লিখুন</string>
+    <string name="deshborad">ড্যাশর্বোড</string>
+    <string name="koto_tk_send_korben">কত টাকা সেন্ট করতে চান লিখুন</string>
+    <string name="kon_num_thake">যে নাম্বার থেকে টাকা পাঠাবেন নাম্বারটি লিখুন</string>
+    <string name="trs_id"> ট্রানজেকশন আইডি লিখুন</string>
+    <string name="login_num">অ্যাপের লগিন নাম্বার লিখুন</string>
+
+
+    <string name="txt">নিচের বক্সে নাম্বার দেওয়া আছে উক্ত নাম্বারে টাকা  সেন্ড মানি করে পাঠিয়ে নিচের_খালি ঘর পুরন করুন এবং টাকা এড করা হলে কল করুন।</string>
+    <string name="txtPaymentName">বিকাশ - ০১৯৯৯৯৯৯৯৯\nরকেট - ০১৯৯৯৯৯৯৯৯\n নগদ - ০১৯৯৯৯৯৯৯</string>
+    <string name="numberSelected">নিচে কিসের মাধ্যমে টাকা পাঠাবেন সেটা নির্বাচন করুন</string>
+    <string name="selectedOperator">কোন নাম্বারে টাকা নিবেন নির্বাচন করুন</string>
+    <string name="selectedOperatorSim">কোন অপারেটরের টাকা নিবেন নির্বাচন করুন</string>
+    <string name="rechage_txt">পেমেন্ট পেতে সমস্যা হলে নিচের নাম্বারে যোগাযোগ করুন মোবাইল রির্চাজ মিনিমাম ৩০ টাকা।বিকাশ মিনিমাম ৩০০ টাকা।  \n Email \n test@gmail.com</string>
+
+
+    <string name="freePlan">১। ইনভেস্ট - ০০ টাকা \n২। প্যাকেজ মেয়াদ আনলিমিটেড </string>
+
+    <string name="Plan1">১। ইনভেস্ট - ৫০০ টাকা\n২। ডিলি ইনকাম - ১০ টাকা \n৩। প্যাকেজ বোনাস ৮০ টাকা \n৪। প্যাকেজ মেয়াদ আনলিমিটেড </string>
+    <string name="kake_transfer_korben">যাকে সেন্ট করবেন তার নাম্বার লিখুন</string>
+
+    <string name="VpnMessage">Connect VPN</string>
+
+
+</resources>
